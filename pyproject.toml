@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "langchain-kavel"
+version = "0.1.0"
+description = "LangChain tool for Kavel AI image generation, usable with no API key"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Kavel" }]
+keywords = ["langchain", "ai", "image-generation", "text-to-image", "tool"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Graphics",
+]
+dependencies = ["langchain-core>=0.3", "kavel>=0.2.0"]
+
+[project.urls]
+Homepage = "https://www.kavel.ai"
+Source = "https://github.com/hanshs474/langchain-kavel"
+Documentation = "https://github.com/hanshs474/langchain-kavel#readme"
